@@ -6,10 +6,135 @@ html, body{
 }
 .entête{
     background: url("images/Untitled-design-28-1 1.png") no-repeat;
-    height:  120vh;
+    height:  100vh;
     background-size: cover;
     background-position: center;
     width: 100%;}
-    .couleurrose{
+    .couleurbout{
+        background-color: #FF477E;
+        border-radius: auto;
+    }
+    .nav-item{
+        margin-left: 2rem;
+    }
+    .stparagraph{
+        margin-top: 16rem;
+        text-align: center;    
+    }
+    .ndparagraph{
+        margin-top: 6rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        justify-content: center;
+        text-align: center;
+    }
+    .fourthparagraph{
+        margin-top: 5rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .bar1{
+        margin-left: 48%;
+        margin-top:1rem;
+        background-color:#FF477E;
+        height: 0.2rem;
+        width: 4rem;
+    }    
+
+    
+    .carousel-inner{
+        height: 35rem;
+        width: 35rem;
+    }
+    .margecarousel{
+        margin-top: 3rem;
+        justify-content: center;
+    }
+    .justif_txt{
+         text-align: justify;     
+        max-width: 35%;
+        margin-left: -3rem !important;
+    }
+    .couleurdefond{
+        background-color:#E5E5E538;
+    }
+    .rdparagraph{
+        padding-top: 3rem;
+        margin-top: -2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        justify-content: center;
+        text-align: center;
+    }
+    .card-text{
+        text-align: justify;
+        min-height: 25vh;
+
+    }
+   
+    .bi-eye{
+        
+        font-size: 5%;
+        margin-bottom: 3rem;
+        margin-top: 1.5rem;
+        margin-left: 5.5rem;
+        color: black;
+    }
+    .card-titl{
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .card-title{
+        text-align: left;
+        justify-content: left;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+    
+    .spacetopcard{
+        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .mission{
+        width: 40px;
+        height: 40px;
+    }
+    .bar2{
+        background-color:#FF477E ;
+        width: 3rem;
+        height: 0.1rem;
+        margin-left: 5.1rem;
+       margin-top:-2rem;
+       margin-bottom: 1rem; 
+ }
+ .margebas{
+     height: 4rem;
+ }
+ .btn-bgcol{
+    border-style: outset; 
+    border-color: #FF477E;
+ }
+
+    .ensavoirplus{
+        color: #FF477E;
+    }
+  .ensavoirplus:hover{
+    background-color: #FF477E;
+    color: white;
+  }
+    .partenaires{
+        margin-top:3rem;
+    }
+    .soutient{
+        
+        height: fit-content;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        font-weight: 200;
         
     }
