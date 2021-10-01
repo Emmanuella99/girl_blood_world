@@ -1,0 +1,51 @@
+.serviette {
+
+    height: 350px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("images/image\ 5.png") no-repeat center / cover ;
+
+        }
+
+/*.letter {
+            margin-left: 950px;
+
+}*/
+
+.foot{ background-color:#480000 ;
+    border:1px solid darkred;
+    height: 250px;
+    color: white;
+    padding-top:40px;
+
+
+}
+.bar {
+    border-bottom: 1px solid white;
+
+
+}
+
+.foot1 {color: white;
+    font-family: 'Poppins', sans-serif;
+    background-size: 33px;
+
+}
+h4,h3 {font-family: 'Poppins', sans-serif;
+    background-size: 33px;
+    font-weight: 600px;
+
+}
+p { background-size: 16px;
+    font-weight: 400px;
+
+}
+a { font-weight: 400px;
+    background-size: 16px;
+
+}
+.corect{
+    margin-right: 4rem;
+
+}
+
+

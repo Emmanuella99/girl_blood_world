@@ -11,13 +11,8 @@ html, body{
     background-position: center;
     width: 100%;}
     
-    .entêt_blog{
-        background: url("images/IMG_20210306_182924_093 1.png") no-repeat;
-        height:  100vh;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-    }
+    
+    
     .couleurbout{
         background-color: #FF477E;
         border-radius: auto;
@@ -155,12 +150,84 @@ html, body{
 
 
 
+   body{
+       font-family: 'Poppins', sans-serif; ;
+   }
+   .entêt_blog{
+    background: url("images/IMG_20210306_182924_093 1.png") no-repeat;
+    height:  80vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;}
+
     .support{
         background: #FFFFFF;
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
         color: #636C77;
+        padding-top: 0.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 2.5rem;
+        min-width: 1082px;
+        box-shadow: silver;
+        margin-bottom: 3rem !important;
     }
     .blogrougecolor{
         color: #A31A2F;
+    }
+    .titrblog{
+        
+        font-weight: 400;
+        font-size: 2.5rem;
+        letter-spacing: normal;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+    .para_title{
+        margin-top: 1rem;
+        justify-content: center;
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.3rem;
+      
+    }
+    .espacement{
+        height: 10rem;
+    }
+    .imgalaune{
+
+        background: url("images/image\ 9\ \(1\).png") no-repeat;
+        height:  80vh;
+        background-size: cover;
+        background-position: center;
+        width: 60%;
+    }
+    .topart{
+        margin-top: 3rem;
+    }
+    .spacegauche{
+        margin-left: 3rem;
+            }
+    .mens1{
+        margin-top: 8rem;
+        color: black;
+    }
+    .mens2{
+        margin-top: 5rem;
+        text-align: justify;
+        margin-bottom: 3rem;
+    }
+    .lasuite{
+        font-weight: 600;
+        font-size: 16px;
+        color: #A31A2F;
+        font-family: 'Poppins', sans-serif;
+        margin-right:0.3rem;
+    }
+    .art{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
     }
