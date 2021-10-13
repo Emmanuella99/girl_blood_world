@@ -10,6 +10,16 @@ html, body{
     background-size: cover;
     background-position: center;
     width: 100%;}
+    
+    .imlog{
+width: 6rem;
+left: 188px;
+top: -206px;
+border-radius: 0px;
+margin-left: 45%;
+
+    }
+    
     .couleurbout{
         background-color: #FF477E;
         border-radius: auto;
@@ -22,15 +32,15 @@ html, body{
         text-align: center;    
     }
     .ndparagraph{
-        margin-top: 6rem;
-        font-family: 'Times New Roman', Times, serif;
+        margin-top: 4rem;
+        font-family: 'Lora', serif;
         font-size: small;
         justify-content: center;
         text-align: center;
     }
     .fourthparagraph{
         margin-top: 5rem;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Lora', serif;
         font-size: small;
         justify-content: center;
         text-align: center;
@@ -46,8 +56,8 @@ html, body{
 
     
     .carousel-inner{
-        height: 35rem;
-        width: 35rem;
+        height: 50rem;
+        width: 40rem;
     }
     .margecarousel{
         margin-top: 3rem;
@@ -55,7 +65,6 @@ html, body{
     }
     .justif_txt{
          text-align: justify;     
-        max-width: 35%;
         margin-left: -3rem !important;
     }
     .couleurdefond{
@@ -64,23 +73,22 @@ html, body{
     .rdparagraph{
         padding-top: 3rem;
         margin-top: -2rem;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Lora', serif;
         font-size: small;
         justify-content: center;
         text-align: center;
     }
-    .card-text{
+    .cardetext{
         text-align: justify;
-        min-height: 25vh;
 
     }
-   
+    
     .bi-eye{
         
         font-size: 5%;
         margin-bottom: 3rem;
         margin-top: 1.5rem;
-        margin-left: 5.5rem;
+        margin-left: 7rem;
         color: black;
     }
     .card-titl{
@@ -88,7 +96,7 @@ html, body{
         justify-content: center;
         margin-bottom: 1rem;
     }
-    .card-title{
+    .titrecorri{
         text-align: left;
         justify-content: left;
         margin-bottom: 1rem;
@@ -108,7 +116,7 @@ html, body{
         background-color:#FF477E ;
         width: 3rem;
         height: 0.1rem;
-        margin-left: 5.1rem;
+        margin-left: 6.8rem;
        margin-top:-2rem;
        margin-bottom: 1rem; 
  }
@@ -127,14 +135,151 @@ html, body{
     background-color: #FF477E;
     color: white;
   }
+  .part{
+      padding-top: 2rem;
+  }
     .partenaires{
-        margin-top:3rem;
+        margin-top: 2rem;
+    }
+    .partenaire{
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
     }
     .soutient{
-        
-        height: fit-content;
-        font-family: 'Times New Roman', Times, serif;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-family: 'Lora', serif;
         font-size: 1.5rem;
         font-weight: 200;
+        justify-content: center;
         
     }
+
+
+
+
+
+
+   body{
+       font-family: 'Poppins', sans-serif; ;
+   }
+   .entêt_blog{
+    background: url("images/IMG_20210306_182924_093 1.png") no-repeat;
+    height:  80vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;}
+
+    .support{
+        background: #FFFFFF;
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        color: #636C77;
+        padding-top: 0.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 2.5rem;
+        min-width: 1082px;
+        box-shadow: silver;
+        margin-bottom: 3rem !important;
+    }
+    .blogrougecolor{
+        color: #A31A2F;
+    }
+    .titrblog{
+        
+        font-weight: 400;
+        font-size: 2.5rem;
+        letter-spacing: normal;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+    .para_title{
+        margin-top: 1rem;
+        justify-content: center;
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.3rem;
+      
+    }
+    .espacement{
+        height: 10rem;
+    }
+    .imgalaune{
+
+        background: url("images/image\ 9.png") no-repeat;
+        height:  80vh;
+        background-size: cover;
+        background-position: center;
+        width: 60%;
+    }
+    .topart{
+        margin-top: 3rem;
+    }
+    .spacegauche{
+        margin-left: 3rem;
+            }
+    .mens1{
+        margin-top: 8rem;
+        color: black;
+    }
+    .mens2{
+        margin-top: 5rem;
+        text-align: justify;
+        margin-bottom: 3rem;
+    }
+    .lasuite{
+        font-weight: 600;
+        font-size: 16px;
+        color: #A31A2F;
+        font-family: 'Poppins', sans-serif;
+        margin-right:0.3rem;
+    }
+    .art{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+        left: 106px;
+        color: black;
+        margin-top: 1.5rem;
+        margin-left: 0.3rem;
+    }
+    .livre{
+        vertical-align: 0%;
+    }
+    .maart{
+        margin-top: 5rem;
+    }
+    
+    .sit{
+        text-align: justify;
+        min-height: 20vh;
+    }
+    .partir{
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+          }
+          
+     .plusart{
+         margin-left: 47%;
+     }
+     .imgart1{
+
+        background: url("images/imagesmens.jpg") no-repeat;
+        height:  80vh;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+    .imgart2{
+
+        background: url("images/unnamed\ \(3\).jpg") no-repeat;
+        height:  80vh;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+     
+     
