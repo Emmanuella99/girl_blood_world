@@ -50,8 +50,12 @@ a { font-weight: 400px;
 }
 
 
-.aider { background-color: #AFAFAF;
-    height: 45vh;
+.aider {
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("photos/filles.jpg") no-repeat center / cover ;
+
+        
+    height: 30vh;
 
 }
 
@@ -72,7 +76,7 @@ height: 60vh;
 
 .couleurdefond{
     background-color:#E5E5E538;
-    height: 60vh;
+    
 
 }
 
@@ -104,23 +108,32 @@ height: 60vh;
 
 }
 
-.ground { background-image: url( photos/image\ 6.png);
-    height: 60vh;
+.margin20{
+    margin-top:20rem;
+}
+.ground { background: url( photos/Photo\ by\ AMISOM\ via\ Iwaria.jpg) no-repeat;
+
+    
+    
+    
     color: white;
 
 }
 .caback { background-image: url();
 
 }
-.bbg { background: url(photos/image\ 8.png) no-repeat;
+.bbg { background: url(photos/Iwaria4.jpg) no-repeat;
     height: 30vh;
+   
 
 }
-.bbg1 { background: url(photos/image\ 8.png) no-repeat;
+.bbg1 { background: url(photos/iwarai\ 3\ \(3\).jpg) no-repeat;
+    
     height: 30vh;
 
+
 }
-.bbg2 { background: url(photos/image\ 8\ \(1\).png) no-repeat;
+.bbg2 { background: url(photos/iwarai\ 3\ \(2\).jpg) no-repeat;
     height: 30vh;
 
 }
@@ -131,10 +144,8 @@ height: 60vh;
 .base {
     margin-right: 4rem !important;
 }
-
 .imlog{
-   width: 6rem;
-   left: 188px;
-   top: -206px;
-   border-radius: 0px;
-   margin-left: 45%;}
+    width: 6rem;
+    left: 188px;
+    top: -206px;
+    border-radius: 0px;}

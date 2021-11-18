@@ -5,8 +5,7 @@ html, body{
     text-decoration-color: #797979;
 }
 .entête{
-    background: url("images/Untitled-design-28-1 1.png") no-repeat;
-    height:  100vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("images/pexels-nappy-935985.jpg") no-repeat center / cover ;
     background-size: cover;
     background-position: center;
     width: 100%;}
@@ -16,7 +15,6 @@ width: 6rem;
 left: 188px;
 top: -206px;
 border-radius: 0px;
-margin-left: 45%;
 
     }
     
@@ -28,7 +26,8 @@ margin-left: 45%;
         margin-left: 2rem;
     }
     .stparagraph{
-        margin-top: 16rem;
+        padding-top: 15rem;
+        padding-bottom: 15rem;
         text-align: center;    
     }
     .ndparagraph{
@@ -47,7 +46,7 @@ margin-left: 45%;
         padding-top: 2rem;
     }
     .bar1{
-        margin-left: 48%;
+        margin-left: 47%;
         margin-top:1rem;
         background-color:#FF477E;
         height: 0.2rem;
@@ -55,19 +54,19 @@ margin-left: 45%;
     }    
 
     
-    .carousel-inner{
-        height: 50rem;
-        width: 40rem;
-    }
+    
     .margecarousel{
         margin-top: 3rem;
         justify-content: center;
-    }
+    } 
     .justif_txt{
          text-align: justify;     
-        margin-left: -3rem !important;
-    }
+         justify-content: end; 
+        margin-top: 1rem;   }
     .couleurdefond{
+        background-color:#E5E5E538;
+    }
+    .couleurdefond1{
         background-color:#E5E5E538;
     }
     .rdparagraph{
@@ -88,7 +87,7 @@ margin-left: 45%;
         font-size: 5%;
         margin-bottom: 3rem;
         margin-top: 1.5rem;
-        margin-left: 7rem;
+        margin-left: 6.5rem;
         color: black;
     }
     .card-titl{
@@ -108,6 +107,10 @@ margin-left: 45%;
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    .spacetopcarde{
+        margin-top: 3rem;
+        
+    }
     .mission{
         width: 40px;
         height: 40px;
@@ -116,7 +119,7 @@ margin-left: 45%;
         background-color:#FF477E ;
         width: 3rem;
         height: 0.1rem;
-        margin-left: 6.8rem;
+        margin-left: 6.2rem;
        margin-top:-2rem;
        margin-bottom: 1rem; 
  }
@@ -154,7 +157,7 @@ margin-left: 45%;
         justify-content: center;
         
     }
-
+   
 
 
 
@@ -179,7 +182,7 @@ margin-left: 45%;
         padding-left: 4rem;
         padding-right: 4rem;
         padding-bottom: 2.5rem;
-        min-width: 1082px;
+        min-width: 70%;
         box-shadow: silver;
         margin-bottom: 3rem !important;
     }
@@ -208,18 +211,16 @@ margin-left: 45%;
     }
     .imgalaune{
 
-        background: url("images/image\ 9.png") no-repeat;
-        height:  80vh;
+        
         background-size: cover;
         background-position: center;
-        width: 60%;
+        width: 90%;
     }
     .topart{
         margin-top: 3rem;
+        padding: 2rem;
     }
-    .spacegauche{
-        margin-left: 3rem;
-            }
+    
     .mens1{
         margin-top: 8rem;
         color: black;
@@ -265,21 +266,68 @@ margin-left: 45%;
      .plusart{
          margin-left: 47%;
      }
-     .imgart1{
-
-        background: url("images/imagesmens.jpg") no-repeat;
-        height:  80vh;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
+    
+    @media  ( width: "600px") {
+        
+        .carousel-inner{
+            height: 20rem;
+            width: 10rem;
+        }
+        
     }
-    .imgart2{
-
-        background: url("images/unnamed\ \(3\).jpg") no-repeat;
-        height:  80vh;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
+    .youtb{
+       justify-content: center;
+    padding-top: 2rem; 
+    padding-left: 2rem;
+}
+    .circle{
+        background:url("images/imagesmens.jpg") no-repeat ;
+        width: 600px;
+        height:  500px;
+        background-size: 100% 100%;
+        float: left;
+        shape-outside: element();
+        margin:40px;
     }
-     
-     
+    .onvrea{
+        padding-top: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+
+    }
+    .doul{
+        font-family: 'Poppins', sans-serif;
+        font-weight:500;
+        font-size: 2rem;
+        color: #FF477E;
+        margin-top: 2rem;    
+    }
+    .pre{
+        justify-content: center;
+        text-align: center;
+    }
+    .pree{
+        padding-right: 2rem;
+    }
+   .circle2{
+    background: url("images/unnamed\ \(3\).jpg") no-repeat;
+    width: 600px;
+    height:  500px;
+    background-size: 100% 100%;
+    float: left;
+    shape-outside: element();
+    margin:40px;
+   }
+   .circle3{
+    background: url("images/imagemens3.jpg") no-repeat;
+    width: 600px;
+    height:  450px;
+    background-size: 100% 100%;
+    float: left;
+    shape-outside: element();
+    margin:40px;
+   }
