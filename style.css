@@ -1,8 +1,5 @@
 
 
-
-
-
 .serviette {
 
     height: 350px;
@@ -26,8 +23,6 @@
 }
 .bar {
      border-bottom: 1px solid white;
-
-
  }
 
 .foot1 {color: white;
@@ -132,6 +127,4 @@ height: 60vh;
  }
  .lien1:hover {
      text-decoration: underline !important;
-
-
-
+ }
